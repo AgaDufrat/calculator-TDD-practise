@@ -6,4 +6,9 @@ class Calculator
  def square(num)
    num ** num
  end
+
+ def print_result(result)
+   print "The answer is #{result}"
+ end
+
 end
